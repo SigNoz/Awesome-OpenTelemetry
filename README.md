@@ -1,2 +1,5 @@
-# awesome-opentelemetry
-Repository of open source content on opentelemetry
+# Awesome OpenTelemetry
+
+A carefully curated list of open source content related to OpenTelemetry. 
+
+
