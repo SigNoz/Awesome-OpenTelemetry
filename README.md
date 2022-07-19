@@ -61,7 +61,7 @@ Here starts the list of awesome resources! Enjoy.
 - [🔍 Search OpenTelemetry at O'Reilly](https://www.oreilly.com/search/?query=OpenTelemetry&formats=book)
 
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
 
@@ -121,7 +121,7 @@ Here starts the list of awesome resources! Enjoy.
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) | [Github](https://github.com/aspecto-io/opentelemetry-bootcamp)
 
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
 
@@ -179,7 +179,7 @@ Here starts the list of awesome resources! Enjoy.
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Posts about OpenTelemetry.
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates of OpenTelemetry.
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
 
@@ -216,11 +216,9 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 - [PromQL Cheat SHeet](https://promlabs.com/promql-cheat-sheet/)
 
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
-
-
 
 ## Distributed Tracing Solutions
 
@@ -272,6 +270,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [DevStats - Opentelemetry](https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m)
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
+
 ## Main Components
 
 - **OpenTelemetry Protocol (OTLP)** specification describes the encoding, transport, and delivery mechanism of telemetry data between telemetry sources, intermediate nodes such as collectors, and telemetry backends.
@@ -279,7 +278,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - **APIs and SDKs** in 11 different languages, enabling users to easily integrate and extend the project.
 
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
 
@@ -348,7 +347,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Opentelemetry - CNCF](https://cloud-native.slack.com/?redir=%2Farchives%2FCJFCJHG4Q)
 
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
 
 ---
 
@@ -358,4 +357,4 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 **Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)) creator of [awesome-os](https://github.com/zriyansh/awesome-os).
 
-**[`^ back to top ^`](#)**
+**[`^ back to top ^`](#contents)**
