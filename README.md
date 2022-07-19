@@ -4,15 +4,9 @@ A carefully curated list of open source content related to OpenTelemetry.
 
 ## Introduction:
 
-OpenTelemetry is an open-source project, which allows you to collect, export, and generate traces, logs, and metrics (also known as the three pillars of observability). It is a set of APIs and SDKs.
+**OpenTelemetry** is an open-source project, which allows you to collect, export, and generate *traces*, *logs*, and, *metrics* (also known as the three pillars of observability). It is a set of APIs and SDKs.
 
-Opentelemetry was formed in 2019 by merge of 2 other open source projects, OpenTracing and OpenConcensus. 
-
-OpenTracing - Distributed Tracing
-
-OpenConcesnsus - Metrics and Distributed Traces
-
-> _Items marked with ![Open-Source Software][oss icon] are open-source software. Items marked with ![Freeware][freeware icon] are free._
+> “When we announced the OpenTelemetry project in 2019, we envisioned it as the next major version of both OpenTracing and OpenCensus,” said Ben Sigelman, one of the co-creators of both OpenTracing and OpenTelemetry. 
 
 
 ## Contents
@@ -35,6 +29,7 @@ OpenConcesnsus - Metrics and Distributed Traces
     - [Vendors](#vendors)
   - [Terminology](#terminology)
   - [Stats](#stats)
+  - [Main Components](#main-components)
   - [Join the Community](#join-the-community)
   - [Stay in Touch](#stay-in-touch)
     - [Newsletters](#newsletters)
@@ -265,6 +260,12 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 ## Stats
 - [DevStats - Opentelemetry](https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m)
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
+
+## Main Components
+
+- **OpenTelemetry Protocol (OTLP)** specification describes the encoding, transport, and delivery mechanism of telemetry data between telemetry sources, intermediate nodes such as collectors, and telemetry backends.
+- **OpenTelemetry Collector** offers a vendor-agnostic implementation on receiving, processing, and exporting telemetry data and removing the need to run, operate, and maintain multiple agents/collectors.
+- **APIs and SDKs** in 11 different languages, enabling users to easily integrate and extend the project.
 
 
 ---
