@@ -19,41 +19,41 @@ OpenConcesnsus - Metrics and Distributed Traces
 - [Awesome OpenTelemetry 🎉](#awesome-opentelemetry-)
   - [Introduction:](#introduction)
   - [Contents](#contents)
-    - [Tools](#tools)
-    - [Books](#books)
-    - [Videos](#videos)
-      - [Free Online Tutorials](#free-online-tutorials)
-    - [Blogs](#blogs)
-      - [Blog By Vendors:](#blog-by-vendors)
-    - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
-      - [Supported Languages - Link](#supported-languages---link)
-      - [Supported Databases - Link](#supported-databases---link)
-      - [OpenTelemetry Registry](#opentelemetry-registry)
-      - [Secure your POD](#secure-your-pod)
-    - [Distributed Tracing Solutions](#distributed-tracing-solutions)
-      - [Open Source Tools](#open-source-tools)
-      - [Vendors](#vendors)
-    - [Terminology](#terminology)
-    - [Stats](#stats)
-    - [Join the Community](#join-the-community)
-    - [Stay in Touch](#stay-in-touch)
-      - [Newsletters](#newsletters)
-      - [Podcasts](#podcasts)
-      - [Events](#events)
-      - [Case Studies](#case-studies)
-      - [StackOverflow](#stackoverflow)
-      - [Twitter](#twitter)
-      - [Slack](#slack)
+  - [Tools](#tools)
+  - [Books](#books)
+  - [Videos](#videos)
+    - [Free Online Tutorials](#free-online-tutorials)
+  - [Blogs](#blogs)
+    - [Blog By Vendors:](#blog-by-vendors)
+  - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
+    - [Supported Languages - Link](#supported-languages---link)
+    - [Supported Databases - Link](#supported-databases---link)
+    - [OpenTelemetry Registry](#opentelemetry-registry)
+    - [Secure your POD](#secure-your-pod)
+  - [Distributed Tracing Solutions](#distributed-tracing-solutions)
+    - [Open Source Tools](#open-source-tools)
+    - [Vendors](#vendors)
+  - [Terminology](#terminology)
+  - [Stats](#stats)
+  - [Join the Community](#join-the-community)
+  - [Stay in Touch](#stay-in-touch)
+    - [Newsletters](#newsletters)
+    - [Podcasts](#podcasts)
+    - [Events](#events)
+    - [Case Studies](#case-studies)
+    - [StackOverflow](#stackoverflow)
+    - [Twitter](#twitter)
+    - [Slack](#slack)
  
 
 Here starts the list of awesome resources! Enjoy. 
 
 
 
-### Tools
+## Tools
 - [BindPlane OP](https://github.com/observIQ/bindplane-op)
 
-### Books
+## Books
 
 - [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering/9781492076438/)
 - [Mastering Distributed Tracing](https://www.oreilly.com/library/view/mastering-distributed-tracing/9781788628464/)
@@ -68,7 +68,7 @@ Here starts the list of awesome resources! Enjoy.
 ---
 
 
-### Videos
+## Videos
 
 - [OpenTelemetry meetup with Yuri Shkuro on Distributed Tracing, Jaeger and OpenTelemetry](https://www.youtube.com/watch?v=OebhomcdJ4g)
 - [SREcon21 - Take Me Down to the Paradise City Where the Metric Is Green and Traces Are Pretty](https://www.youtube.com/watch?v=AKys5tuTvV0)
@@ -118,12 +118,12 @@ Here starts the list of awesome resources! Enjoy.
 
 
 
-#### Free Online Tutorials
+### Free Online Tutorials
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) | [Github](https://github.com/aspecto-io/opentelemetry-bootcamp)
 
 ---
 
-### Blogs
+## Blogs
 
 - [Opentelemetry Blog](https://opentelemetry.io/blog/)
 - [StackOverflow Blog](https://stackoverflow.blog/2021/09/08/observability-is-key-to-the-future-of-software-and-your-devops-career/)
@@ -167,7 +167,7 @@ Here starts the list of awesome resources! Enjoy.
 
 <br />
 
-#### Blog By Vendors:
+### Blog By Vendors:
 
 - [SigNoz](https://signoz.io/opentelemetry/) - Instrumentation Blogs.
 - [New Relic](https://developer.newrelic.com/opentelemetry-masterclass/) - OpenTelemetry Masterclass from New Relic.
@@ -181,9 +181,9 @@ Here starts the list of awesome resources! Enjoy.
 
 ---
 
-### OpenTelemetry Instrumentation
+## OpenTelemetry Instrumentation
 
-#### Supported Languages - [Link](https://opentelemetry.io/docs/instrumentation/)
+### Supported Languages - [Link](https://opentelemetry.io/docs/instrumentation/)
 - [C++](https://opentelemetry.io/docs/instrumentation/cpp/) 
 - [.NET](https://opentelemetry.io/docs/instrumentation/net/automatic/) - Auto Instrumentation Support
 - [Erlang/Elixir](https://opentelemetry.io/docs/instrumentation/erlang/)
@@ -196,17 +196,17 @@ Here starts the list of awesome resources! Enjoy.
 - [Rust](https://opentelemetry.io/docs/instrumentation/rust/) 
 - [Swift](https://opentelemetry.io/docs/instrumentation/swift/) 
 
-#### Supported Databases - [Link](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/database.md)
+### Supported Databases - [Link](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/database.md)
 
 If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kubernetes](https://github.com/open-telemetry/opentelemetry-operator) to [inject auto-instrumentation libraries](https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-auto-instrumentation-injection) for Java, Node.js and Python into your application.
 
 
 
-#### OpenTelemetry Registry
+### OpenTelemetry Registry
 The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
 
 
-#### Secure your POD
+### Secure your POD
 - [Secure OpenTelemetry Collector - Medium](https://medium.com/opentelemetry/securing-your-opentelemetry-collector-1a4f9fa5bd6f)
 
 - [ConfigAuth](https://github.com/open-telemetry/opentelemetry-collector/tree/main/config/configauth)
@@ -216,9 +216,9 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 ---
 
 
-### Distributed Tracing Solutions
+## Distributed Tracing Solutions
 
-#### Open Source Tools
+### Open Source Tools
 
 - [SigNoz](https://signoz.io/) | [Github]()
 - [OpenTelemetry](https://opentelemetry.io) | [Github]()
@@ -229,7 +229,7 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 
 
 
-#### Vendors
+### Vendors
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 - [SigNoz - Open Source APM](https://signoz.io)
 - [AppDynamics](https://www.appdynamics.com)
@@ -258,18 +258,18 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 
-### Terminology
+## Terminology
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
 - [Glossary](https://opentelemetry.io/docs/concepts/glossary/)
 
-### Stats
+## Stats
 - [DevStats - Opentelemetry](https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m)
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
 
 ---
 
-### Join the Community
+## Join the Community
 - [Join the Community](https://opentelemetry.io/community/)
 - [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists)
 - [Community GitHub](https://github.com/open-telemetry/community)
@@ -281,36 +281,36 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Current Status](https://opentelemetry.io/status/)
 
 
-### Stay in Touch
+## Stay in Touch
 
-#### Newsletters
+### Newsletters
 - [o11y news!](https://o11y.news) -  Newsletter about Observability.
 - [Observability news](https://buttondown.email/o11y.news) - Updates around observability (o11y) with a special focus on open source.
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
 
 
-#### Podcasts
+### Podcasts
 - [Changelog]( https://changelog.com/topic/observability)
 - [StackOverflow Podcast #343](https://stackoverflow.blog/2021/06/01/podcast-343-unpacking-observability-and-opentelemetry-with-spiros-xanthos-of-splunk/)
 
-#### Events
+### Events
 - [CNCF](https://www.cncf.io/events/) - CNCF Events
 - [SREcon](https://www.usenix.org/conference/srecon22americas)
 - [Opentelemetery Community Days]()
 
 
 
-#### Case Studies
+### Case Studies
 - [CNCF](https://www.cncf.io/case-studies/)
 - [How Lightstep Implemented Observability](https://www.oreilly.com/videos/how-lightstep-implemented/0636920623601/)
 
 
-#### StackOverflow
+### StackOverflow
 - [OpenTelemetry Tagged Questions](https://stackoverflow.com/tags/open-telemetry/new)
 - [StackOverflow Podcast #343](https://stackoverflow.blog/2021/06/01/podcast-343-unpacking-observability-and-opentelemetry-with-spiros-xanthos-of-splunk/)
 - [StackOverflow Blog](https://stackoverflow.blog/2021/09/08/observability-is-key-to-the-future-of-software-and-your-devops-career/)
 
-#### Twitter
+### Twitter
 - [SigNoz]()
 - [Opentelemetry](https://twitter.com/opentelemetry)
 - [Opentracing](https://twitter.com/opentracing)
@@ -328,7 +328,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Charity Majors](https://twitter.com/mipsytipsy) - cofounder/CTO Honeycomb.io
 
 
-#### Slack
+### Slack
 - [SigNoz](https://join.slack.com/t/signoz-community/shared_invite/zt-lrjknbbp-J_mI13rlw8pGF4EWBnorJA)
 - [Opentelemetry - CNCF](https://cloud-native.slack.com/?redir=%2Farchives%2FCJFCJHG4Q)
 
