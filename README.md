@@ -60,7 +60,11 @@ Here starts the list of awesome resources! Enjoy.
 - [Go for DevOps - Chapter #9](https://www.oreilly.com/library/view/go-for-devops/9781801818896/)
 - [🔍 Search OpenTelemetry at O'Reilly](https://www.oreilly.com/search/?query=OpenTelemetry&formats=book)
 
+
+**[`^ back to top ^`](#)**
+
 ---
+
 
 
 ## Videos
@@ -115,6 +119,9 @@ Here starts the list of awesome resources! Enjoy.
 
 ### Free Online Tutorials
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) | [Github](https://github.com/aspecto-io/opentelemetry-bootcamp)
+
+
+**[`^ back to top ^`](#)**
 
 ---
 
@@ -172,7 +179,7 @@ Here starts the list of awesome resources! Enjoy.
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Posts about OpenTelemetry.
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates of OpenTelemetry.
 
-
+**[`^ back to top ^`](#)**
 
 ---
 
@@ -208,7 +215,11 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 
 - [PromQL Cheat SHeet](https://promlabs.com/promql-cheat-sheet/)
 
+
+**[`^ back to top ^`](#)**
+
 ---
+
 
 
 ## Distributed Tracing Solutions
@@ -268,6 +279,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - **APIs and SDKs** in 11 different languages, enabling users to easily integrate and extend the project.
 
 
+**[`^ back to top ^`](#)**
+
 ---
 
 ## Join the Community
@@ -280,6 +293,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Gitter](https://gitter.im/open-telemetry/community?at=5fdb93b299256527beb7c619) *- archived*
 - [Twitch](https://www.twitch.tv/opentelemetry)
 - [Current Status](https://opentelemetry.io/status/)
+
 
 
 ## Stay in Touch
@@ -334,6 +348,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Opentelemetry - CNCF](https://cloud-native.slack.com/?redir=%2Farchives%2FCJFCJHG4Q)
 
 
+**[`^ back to top ^`](#)**
+
 ---
 
 
@@ -341,3 +357,5 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 **Special Mention:** [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources *(repo stagnant)*
 
 **Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)) creator of [awesome-os](https://github.com/zriyansh/awesome-os).
+
+**[`^ back to top ^`](#)**
