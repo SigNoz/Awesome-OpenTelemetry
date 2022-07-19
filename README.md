@@ -3,6 +3,7 @@
 A carefully curated list of open source content related to OpenTelemetry. 
 
 ## Introduction:
+
 OpenTelemetry is an open-source project, which allows you to collect, export, and generate traces, logs, and metrics (also known as the three pillars of observability). It is a set of APIs and SDKs.
 
 Opentelemetry was formed in 2019 by merge of 2 other open source projects, OpenTracing and OpenConcensus. 
@@ -15,43 +16,40 @@ OpenConcesnsus - Metrics and Distributed Traces
 
 
 ## Contents
-- Awesome OpenTelemetry
-- Introduction
-- Contents
-- Books
-- Videos
-- Blogs
-- Free Online Tutorials
-- Important Videos
-- OpenTelemetry Instrumentation
-  - Supported Languages
-  - Supported Databases
-  - Vendor Distro
-  - OpenTelemetry Registry
-  - Distributed Tracing Solutions
-    - Open Source
-    - Vendors
-    - Terminology
-  - Language Specific OpenTelemetry Videos
-    - Python
-    - Go
-    - Java
-  - Quickstart
-  - Secure your Pod
-  - Get Involved
-    - Newsletters
-    - Podcasts
-    - Events
-    - Case Studies
-    - Youtube Channels
-    - Reddit
-    - StackOverflow
-    - Twitter
-    - Slack
-    - Twitch
-    - Community
-  - Other Languages
+- [Awesome OpenTelemetry 🎉](#awesome-opentelemetry-)
+  - [Introduction:](#introduction)
+  - [Contents](#contents)
+    - [Tools](#tools)
+    - [Books](#books)
+    - [Videos](#videos)
+      - [Free Online Tutorials](#free-online-tutorials)
+    - [Blogs](#blogs)
+      - [Blog By Vendors:](#blog-by-vendors)
+    - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
+      - [Supported Languages - Link](#supported-languages---link)
+      - [Supported Databases - Link](#supported-databases---link)
+      - [OpenTelemetry Registry](#opentelemetry-registry)
+      - [Secure your POD](#secure-your-pod)
+    - [Distributed Tracing Solutions](#distributed-tracing-solutions)
+      - [Open Source Tools](#open-source-tools)
+      - [Vendors](#vendors)
+    - [Terminology](#terminology)
+    - [Stats](#stats)
+    - [Join the Community](#join-the-community)
+    - [Stay in Touch](#stay-in-touch)
+      - [Newsletters](#newsletters)
+      - [Podcasts](#podcasts)
+      - [Events](#events)
+      - [Case Studies](#case-studies)
+      - [StackOverflow](#stackoverflow)
+      - [Twitter](#twitter)
+      - [Slack](#slack)
  
+
+Here starts the list of awesome resources! Enjoy. 
+
+
+
 ### Tools
 - [BindPlane OP](https://github.com/observIQ/bindplane-op)
 
@@ -170,12 +168,12 @@ OpenConcesnsus - Metrics and Distributed Traces
 <br />
 
 #### Blog By Vendors:
-- [SigNoz](https://signoz.io/opentelemetry/) - Instrumentation Blogs
-- [New Relic](https://developer.newrelic.com/opentelemetry-masterclass/) - OpenTelemetry Masterclass from New Relic
+
+- [SigNoz](https://signoz.io/opentelemetry/) - Instrumentation Blogs.
+- [New Relic](https://developer.newrelic.com/opentelemetry-masterclass/) - OpenTelemetry Masterclass from New Relic.
 - [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry.
 - [Aspecto](https://www.aspecto.io/blog/) - Guides on how to use OpenTelemetry.
 - [Jaeger](https://medium.com/jaegertracing/latest) - Posts from Jaeger.
-
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Posts about OpenTelemetry.
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates of OpenTelemetry.
 
@@ -264,7 +262,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
 - [Glossary](https://opentelemetry.io/docs/concepts/glossary/)
 
-#### Stats
+### Stats
 - [DevStats - Opentelemetry](https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m)
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
@@ -306,7 +304,6 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [CNCF](https://www.cncf.io/case-studies/)
 - [How Lightstep Implemented Observability](https://www.oreilly.com/videos/how-lightstep-implemented/0636920623601/)
 
-#### YouTube Channels
 
 #### StackOverflow
 - [OpenTelemetry Tagged Questions](https://stackoverflow.com/tags/open-telemetry/new)
