@@ -1,5 +1,6 @@
 # Awesome OpenTelemetry 🎉
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A carefully curated list of open source content related to OpenTelemetry. 
 
 ## Introduction:
