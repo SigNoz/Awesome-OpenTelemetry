@@ -17,7 +17,7 @@ A carefully curated list of open source content related to OpenTelemetry.
 - [Awesome OpenTelemetry 🎉](#awesome-opentelemetry-)
   - [What is OpenTelemetry?](#what-is-opentelemetry)
   - [Contents](#contents)
-  - [OpenTelemetry Instrumentation](#opentelemetry-instrumentation)
+  - [OpenTelemetry Instrumentation 🎺](#opentelemetry-instrumentation-)
     - [Supported Languages](#supported-languages)
     - [Supported Databases 💿](#supported-databases-)
     - [OpenTelemetry Registry](#opentelemetry-registry)
@@ -46,7 +46,7 @@ Here starts the list of awesome resources! Enjoy.
 
 ---
 
-## OpenTelemetry Instrumentation
+## OpenTelemetry Instrumentation 🎺
 
 ### Supported Languages 
 | Language                                                                        | Client Repo                                                              | Contrib Repo                                                               | API and SDK                                                           | Auto Instrumentation                                                                                   |
@@ -62,6 +62,9 @@ Here starts the list of awesome resources! Enjoy.
 | [Ruby](https://opentelemetry.io/docs/instrumentation/ruby/automatic/)           | [Contrib ](https://github.com/open-telemetry/opentelemetry-ruby-contrib) |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-ruby)   | Auto Instrumentation Support                                                                           |
 | [Rust](https://opentelemetry.io/docs/instrumentation/rust/)                     | [Github]()                                                               |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-rust)   |
 | [Swift](https://opentelemetry.io/docs/instrumentation/swift/)                   | [Github]()                                                               |                                                                            | [API](https://github.com/open-telemetry/opentelemetry-swift)          |
+
+
+**[`^ back to top ^`](#contents)**
 
 ### Supported Databases 💿
 
@@ -118,6 +121,9 @@ Here starts the list of awesome resources! Enjoy.
 
 Check full list [here.](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/database.md)
 
+
+**[`^ back to top ^`](#contents)**
+
 ---
 
 If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kubernetes](https://github.com/open-telemetry/opentelemetry-operator) to [inject auto-instrumentation libraries](https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-auto-instrumentation-injection) for Java, Node.js and Python into your application.
@@ -160,28 +166,28 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 
 ### Opentelemetry Vendors 
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
-- [SigNoz - Open Source APM](https://signoz.io)
-- [AppDynamics](https://www.appdynamics.com)
-- [Aspecto](https://www.aspecto.io/)
-- [AWS](https://aws-otel.github.io/)
-- [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
+- [SigNoz - Open Source APM](https://signoz.io) - Understand issues in your deployed applications & solve them quickly ⚡️.
+- [AppDynamics](https://www.appdynamics.com) - Observe what matters.
+- [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices. Correlate root causes across traces, logs and metrics.
+- [AWS](https://aws-otel.github.io/) - A secure, production-ready, AWS-supported distribution of the OpenTelemetry project.
+- [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
-- [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/)
-- [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/open-telemetry-elastic.html)
+- [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/) - Digitally transform faster, smarter, and easier.
+- [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/open-telemetry-elastic.html) - Search. Solve. Succeed.
 - [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter)
-- [Grafana Labs](https://grafana.com/oss/opentelemetry/)
-- [Honeycomb](https://docs.honeycomb.io/getting-data-in/)
-- [Instana](https://www.ibm.com/docs/en/instana-observability)
-- [Lightstep](https://github.com/lightstep?q=launcher)
-- [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing)
-- [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html#overview)
-- [Lumingo](https://docs.lumigo.io/docs/opentelemetry)
-- [New Relic](https://newrelic.com/solutions/opentelemetry)
-- [Promscale](https://www.timescale.com/promscale/)
-- [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html)
-- [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html)
-- [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing)
-- [Uptrace](https://uptrace.dev/)
+- [Grafana Labs](https://grafana.com/oss/opentelemetry/) - Operational dashboards for your data here, there, or anywhere.
+- [Honeycomb](https://docs.honeycomb.io/getting-data-in/) - Find your most perplexing application issues.
+- [Instana](https://www.ibm.com/docs/en/instana-observability) - Designed to help IT operations, development, and DevOps teams operate more efficiently.
+- [Lightstep](https://github.com/lightstep?q=launcher) - Monitoring, observability, and incident response for the world’s most reliable systems.
+- [LogicMonitor](https://www.logicmonitor.com/support/tracing/getting-started-with-tracing) - Unified observability to transform what’s next.
+- [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html#overview) - End-to-end cloud monitoring built for scale.
+- [Lumingo](https://docs.lumigo.io/docs/opentelemetry) - Monitoring and Debugging for Modern Cloud Applications.
+- [New Relic](https://newrelic.com/solutions/opentelemetry) - Instrument once, analyze everything in one place.
+- [Promscale](https://www.timescale.com/promscale/) - Observability powered by SQL.
+- [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html) - Monitor the processors, disks, controllers, network adapters, temperature sensors, etc. on all your systems.
+- [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html) - The Unified Security and Observability Platform.
+- [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing) - Making the world’s apps reliable and secure. Cloud-native SaaS analytics.
+- [Uptrace](https://uptrace.dev/) - All-in-one tool to optimize performance and monitor errors & logs.
 
 [Click here for full list of vendors that supports OpenTelemetry.](https://opentelemetry.io/vendors/)
 
@@ -259,6 +265,9 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 [Latest here.](https://opentelemetry.io/status/)
 
+
+**[`^ back to top ^`](#contents)**
+
 ---
 
 ## Stay in Touch 💻
@@ -301,8 +310,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Grafana](https://twitter.com/grafana)
 - [Zipkin](https://twitter.com/zipkinproject)
 - [gRPC](https://twitter.com/grpcio)
-- [Helm](https://twitter.com/HelmPack)
-- 
+- [Helm](https://twitter.com/HelmPack) 
 
 <br>
 
@@ -329,7 +337,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Alex Boten](https://twitter.com/codeboten)
 - [Sam Xie](https://twitter.com/SamXieHere) - Opentelemetry Member
 - [Yoshi](https://twitter.com/ymotongpoo) 
-- 
+
 
 ### Slack
 - [SigNoz](https://join.slack.com/t/signoz-community/shared_invite/zt-lrjknbbp-J_mI13rlw8pGF4EWBnorJA)
