@@ -40,8 +40,12 @@ A carefully curated list of open source content related to OpenTelemetry.
     - [OpenTelemetry Go](#opentelemetry-go)
     - [OpenTelemetry Java](#opentelemetry-java)
     - [OpenTelemetry JavaScript](#opentelemetry-javascript)
+      - [By SigNoz:](#by-signoz)
+      - [Others:](#others)
     - [OpenTelemetry PHP](#opentelemetry-php)
     - [OpenTelemetry Python](#opentelemetry-python)
+      - [By SigNoz:](#by-signoz-1)
+      - [Others:](#others-1)
     - [OpenTelemetry Ruby](#opentelemetry-ruby)
     - [OpenTelemetry Rust](#opentelemetry-rust)
     - [OpenTelemetry Swift](#opentelemetry-swift)
@@ -80,55 +84,33 @@ Here starts the list of awesome resources! Enjoy.
 
 ### Supported Databases 
 
-| Value           | Description                                        |
-| --------------- | -------------------------------------------------- |
-| `other_sql`     | Some other SQL database. Fallback only. See notes. |
-| `mssql`         | Microsoft SQL Server                               |
-| `mysql`         | MySQL                                              |
-| `oracle`        | Oracle Database                                    |
-| `db2`           | IBM Db2                                            |
-| `postgresql`    | PostgreSQL                                         |
-| `redshift`      | Amazon Redshift                                    |
-| `hive`          | Apache Hive                                        |
-| `cloudscape`    | Cloudscape                                         |
-| `hsqldb`        | HyperSQL DataBase                                  |
-| `progress`      | Progress Database                                  |
-| `maxdb`         | SAP MaxDB                                          |
-| `hanadb`        | SAP HANA                                           |
-| `ingres`        | Ingres                                             |
-| `firstsql`      | FirstSQL                                           |
-| `edb`           | EnterpriseDB                                       |
-| `cache`         | InterSystems Caché                                 |
-| `adabas`        | Adabas (Adaptable Database System)                 |
-| `firebird`      | Firebird                                           |
-| `derby`         | Apache Derby                                       |
-| `filemaker`     | FileMaker                                          |
-| `informix`      | Informix                                           |
-| `instantdb`     | InstantDB                                          |
-| `interbase`     | InterBase                                          |
-| `mariadb`       | MariaDB                                            |
-| `netezza`       | Netezza                                            |
-| `pervasive`     | Pervasive PSQL                                     |
-| `pointbase`     | PointBase                                          |
-| `sqlite`        | SQLite                                             |
-| `sybase`        | Sybase                                             |
-| `teradata`      | Teradata                                           |
-| `vertica`       | Vertica                                            |
-| `h2`            | H2                                                 |
-| `coldfusion`    | ColdFusion IMQ                                     |
-| `cassandra`     | Apache Cassandra                                   |
-| `hbase`         | Apache HBase                                       |
-| `mongodb`       | MongoDB                                            |
-| `redis`         | Redis                                              |
-| `couchbase`     | Couchbase                                          |
-| `couchdb`       | CouchDB                                            |
-| `cosmosdb`      | Microsoft Azure Cosmos DB                          |
-| `dynamodb`      | Amazon DynamoDB                                    |
-| `neo4j`         | Neo4j                                              |
-| `geode`         | Apache Geode                                       |
-| `elasticsearch` | Elasticsearch                                      |
-| `memcached`     | Memcached                                          |
-| `cockroachdb`   | CockroachDB                                        |
+| Value        | Description                        |     | Value           | Description               |
+| ------------ | ---------------------------------- | --- | --------------- | ------------------------- |
+| `other_sql`  | Some other SQL database            |     | `mariadb`       | MariaDB                   |
+| `mssql`      | Microsoft SQL Server               |     | `netezza`       | Netezza                   |
+| `mysql`      | MySQL                              |     | `pervasive`     | Pervasive PSQL            |
+| `oracle`     | Oracle Database                    |     | `pointbase`     | PointBase                 |
+| `db2`        | IBM Db2                            |     | `sqlite`        | SQLite                    |
+| `postgresql` | PostgreSQL                         |     | `sybase`        | Sybase                    |
+| `redshift`   | Amazon Redshift                    |     | `teradata`      | Teradata                  |
+| `hive`       | Apache Hive                        |     | `vertica`       | Vertica                   |
+| `cloudscape` | Cloudscape                         |     | `h2`            | H2                        |
+| `hsqldb`     | HyperSQL DataBase                  |     | `coldfusion`    | ColdFusion IMQ            |
+| `progress`   | Progress Database                  |     | `cassandra`     | Apache Cassandra          |
+| `maxdb`      | SAP MaxDB                          |     | `hbase`         | Apache HBase              |
+| `hanadb`     | SAP HANA                           |     | `mongodb`       | MongoDB                   |
+| `ingres`     | Ingres                             |     | `redis`         | Redis                     |
+| `firstsql`   | FirstSQL                           |     | `couchbase`     | Couchbase                 |
+| `edb`        | EnterpriseDB                       |     | `couchdb`       | CouchDB                   |
+| `cache`      | InterSystems Caché                 |     | `cosmosdb`      | Microsoft Azure Cosmos DB |
+| `adabas`     | Adabas (Adaptable Database System) |     | `dynamodb`      | Amazon DynamoDB           |
+| `firebird`   | Firebird                           |     | `neo4j`         | Neo4j                     |
+| `derby`      | Apache Derby                       |     | `geode`         | Apache Geode              |
+| `filemaker`  | FileMaker                          |     | `elasticsearch` | Elasticsearch             |
+| `informix`   | Informix                           |     | `memcached`     | Memcached                 |
+| `instantdb`  | InstantDB                          |     | `cockroachdb`   | CockroachDB               |
+| `interbase`  | InterBase                          |     |
+
 
 
 Check full list [here.](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/database.md)
@@ -279,6 +261,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 ## Video Tutorials
+- [Opentelemetry Offical YouTube](https://www.youtube.com/channel/UCHZDBZTIfdy94xMjMKz-_MA/playlists)
+- [CNCF OTel Community Day 2022 Playlist](https://www.youtube.com/playlist?list=PLj6h78yzYM2P6ia87Y6mOd38Chd2E1Exo)
 - [OpenTelemetry Instrumentation with SigNoz Playlist](https://www.youtube.com/playlist?list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP)
 - [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) | [Github](https://github.com/aspecto-io/opentelemetry-bootcamp)
 - [freeCodeCamp OpenTelemetry Course](https://www.youtube.com/watch?v=r8UvWSX3KA8)
@@ -288,10 +272,12 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 ### OpenTelemetry C++
+- [Opentelemetry C/C++ SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1TdyyldLnfc3kHRVYaj1AomFNy)
 - [OpenTelemetry 2019-10-21 C++ SIG meeting](https://www.youtube.com/watch?v=5TVtrpMEj1E)
-- [Opentelemetry 2020-05-04 C/C++ SIG meeting](https://www.youtube.com/watch?v=t5HgtwtuhwE)
+
 
 ### OpenTelemetry .NET
+- [OpenTelemetry .NET SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1TdyyWZv3XVKuAFm5-FL1z2b3q)
 - [.NET - Monitor a .NET Application with OpenTelemetry and SigNoz](https://www.youtube.com/watchv=9SwL5kMDcvY)
 - [OpenTelemetry with Minimal APIs in .NET 6](https://www.youtube.com/watch?v=djLCqEzf72o)
 - [Get Started With OpenTelemetry Tracing and ASP.NET Core](https://www.youtube.com/watch?v=g0G9M6AuTdo)
@@ -299,6 +285,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [OpenTelemetry in .NET Explained](https://www.youtube.com/watch?v=LPh1YzIc39U)
 - [Better Observability with Open Telemetry in .NET](https://www.youtube.com/watch?v=Sb3p4AHytG8)
 - [Distributed Tracing Made Easy with .NET 5, with Jimmy Bogard](https://www.youtube.com/watch?v=N0r5NSY3ZIQ)
+- [Metrics in .NET has never been easier - OpenTelemetry](https://www.youtube.com/watch?v=Gx8zNOcQSm8)
   
 
 ### OpenTelemetry Erlang/Elixir
@@ -307,6 +294,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
   
 
 ### OpenTelemetry Go
+- [OpenTelemetry Go SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1Tdyw1JXfQkL7erhN4CpKNssV-)
 - [Go instrumentation - OpenTelemetry in Go applications : Complete Tutorial with SigNoz](https://www.youtube.com/watch?v=kTHW4VYnISQ&t=3s)
 - [OpenTelemetry Deep Dive: Golang](https://www.youtube.com/watch?v=yQpyIrdxmQc)
 - [Golang Microservices: Observability using OpenTelemetry](https://www.youtube.com/watch?v=bytCFQJ43DE)
@@ -316,21 +304,87 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Distributed Tracing on Go using OpenTelemetry - Fahri Yardımcı - GopherCon Turkey 2020](https://www.youtube.com/watch?v=I7pQWjYl6nM)
 
 
-
 ### OpenTelemetry Java
+- [OpenTelemetry Java SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1TdywnpttVBGlxxkzHMqhpmIev)
+- [Spring Boot - Monitor your Spring Boot Application with OpenTelemetry & SigNoz](https://www.youtube.com/watch?v=YxZb17_LYwQ)
+- [Monitor your Tomcat Java Application in 20 mins with OpenTelemetry & SigNoz](https://www.youtube.com/watch?v=4obQilMqU4E)
+- [Tutorial: OpenTelemetry Java Instrumentation with Spring Boot in under 5 minutes](https://www.youtube.com/watch?v=_Px-Xn0jEGY)
+- [OpenTelemetry Deep Dive: Java](https://www.youtube.com/watch?v=2v4yYhGgK_E&t=8s)
+- [Getting Started with OpenTelemetry and Distributed Tracing in Java](https://www.youtube.com/watch?v=7h9LTTrGL28)
+- [Tutorial: Auto-instrumentation of a Java app by OpenTelemetry for K8s Environment](https://www.youtube.com/watch?v=P_74rhI1M30)
+- [OpenTelemetry Java Auto-Instrumentation SIG 2020/03/19](https://www.youtube.com/watch?v=88ZjCbT6LPc)
+- [Observability in Java Getting Started with OpenTelemetry](https://www.youtube.com/watch?v=tsaT4L3DF3Q)
+
 
 ### OpenTelemetry JavaScript
+- [OpenTelemetry JavaScript SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1Tdyz-EZEjVRb3BX_s4jEgHaWd)
+
+#### By SigNoz:
+- [Angular Instrumentation - Monitor your Angular application with Opentelemetry and SigNoz](https://www.youtube.com/watch?v=g-I-v1FtMoM&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=3)
+- [React Instrumentation - Implementing OpenTelemetry in React applications | Tutorial](https://www.youtube.com/watch?v=IsOQxc3wqyc&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=5)
+- [NestJS - Monitoring your NestJS Application using OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=tpNDrJAjcto&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=9)
+- [NodeJs Instrumentation Monitor Custom Metrics from your application using OpenTelemetry & SigNoz](https://www.youtube.com/watch?v=7Ni78SajFLM&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=11&t=93s)
+- [NodeJS Application Monitoring with OpenTelemetry & SigNoz](https://www.youtube.com/watch?v=au7ef1tJwEM&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=12)
+- [Express - Monitoring your Express Application using OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=AKu1rlP6j_w&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=14)
+- [NodeJs OpenTelemetry - Implementing Distributed Tracing in a NodeJS Application using OpenTelemetry](https://www.youtube.com/watch?v=CgByZJeuRZY&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=17)
+- [NextJS - Monitoring your NextJS application using OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=sC1xNIcItTM&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=23)
+
+#### Others:
+- [OpenTelemetry 2019-10-23 JavaScript SIG](https://www.youtube.com/watch?v=JOgSzSPt-F0)
+- [Workshop: Getting Started with OpenTelemetry in Javascript with Express and React](https://www.youtube.com/watch?v=RhVXCpEKMkg)
+- [Tutorial: OpenTelemetry Node.js Instrumentation in 5 Minutes](https://www.youtube.com/watch?v=n-Ar0nnho3s)
+- [Distributed tracing for Node.js using OpenTelemetry | Michael Haberman | Conf42 JavaScript 2021](https://www.youtube.com/watch?v=yqHxcm0soTU)
+- [Workshop: Getting Started with OpenTelemetry and Distributed Tracing in Node.js](https://www.youtube.com/watch?v=LIzHgDffvjU)
+- [Getting Started with OpenTelemetry and Distributed Tracing in Node.js](https://www.youtube.com/watch?v=whibfYKeA5Q)
+- [Node.js Meetup - Trace-Based Testing with OpenTelemetry - Michael Haberman](https://www.youtube.com/watch?v=sTpNiAFnENE)
+- 
+
 
 ### OpenTelemetry PHP
+- [OpenTelemetry PHP SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1Tdyw5ccPWGur1s2Ohnt9f6eEO)
+- [PHP - Monitoring a PHP application with OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=BhoVFt9z5wk)
 
 ### OpenTelemetry Python
+- [OpenTelemetry Python SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1TdyzMaMC7Rqr7dLRISyhtU7hR)
+
+
+#### By SigNoz:
+- [Python Instrumentation - Monitor your Python application using OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=oZkFfMN57yI)
+- [FastAPI - Monitoring your FastAPI Application using OpenTelemetry with SigNoz](https://www.youtube.com/watch?v=R2VX2T1WB-I)
+- [Flask OpenTelemetry - Monitoring your Flask application using OpenTelemetry](https://www.youtube.com/watch?v=_URJaj0dYz8&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=18&)
+- [Django - Monitoring Django Application performance with OpenTelemetry](https://www.youtube.com/watch?v=fmDLpaF1xFc&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=19&)
+- [Falcon - Monitoring apps based on Falcon Web Framework with OpenTelemetry](https://www.youtube.com/watch?v=ntW_3t5J34g&list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP&index=24)
+  
+
+#### Others:  
+- [Getting Started with OpenTelemetry in Python](https://www.youtube.com/watch?v=WS-iDN2BOMs)
+- [Getting Started with OpenTelemetry and Distributed Tracing in Python](https://www.youtube.com/watch?v=0ANtbk5fNbI)
+- [OpenTelemetry and Distributed Tracing in Python](https://www.youtube.com/watch?v=tmoCZHUOUgc)
+- [OpenTelemetry Deep Dive: Python](https://www.youtube.com/watch?v=SZlrq9_CZVg)
+- [OpenTelemetry for Python Developers](https://www.youtube.com/watch?v=RJeJWdTGieM)
+- [Workshop: Getting Started with OpenTelemetry in Python and Django](https://www.youtube.com/watch?v=uIImfoLUi24)
+- [The Fundamentals of OpenTelemetry in Python | Live Workshop](https://www.youtube.com/watch?v=XQnssN02NkE)
+- [Code instrumentation with Python and OpenTelemetry | Python Medellín](https://www.youtube.com/watch?v=jon8hicqROo)
+- [Adding Observability To Your Python Applications With OpenTelemetry](https://www.youtube.com/watch?v=OT8gXklqW2E)
+
+
 
 ### OpenTelemetry Ruby
+- [OpenTelemetry Ruby SIG Playlist](https://www.youtube.com/playlist?list=PLVYDBkQ1Tdywzk5WGUYE2wJuzyrOCBBdz)
+- [Ruby - Tracing a Ruby application with OpenTelemetry for performance monitoring](https://www.youtube.com/watch?v=sNMIyQh7Oyo)
+- [OpenTelemetry for Rubyists by Francis Wang](https://www.youtube.com/watch?v=0XIB9KF9w2w)
+
 
 ### OpenTelemetry Rust
+- [Rust - Implementing OpenTelemetry in a Rust application for performance monitoring](https://www.youtube.com/watch?v=yPt1Pc3_tls)
+- [Rust Dublin July 2021 - OpenTelemetry and Rust](https://www.youtube.com/watch?v=DURrAo9lPFA)
+- [Observe with Rust: OpenTelemetry and Tremor - Gary White Jr., Wayfair](https://www.youtube.com/watch?v=RI9cy8OJQmY)
+- [The Rust Programming Language - OpenTelemetry and Rust](https://www.youtube.com/watch?v=6iz9xCCPNPA)
+- [OpenTelemetry for Rust Developers](https://www.youtube.com/watch?v=JNZoo_8XeaE)
+
 
 ### OpenTelemetry Swift
-
+- Did not find any videos. 
 
 --- 
 
@@ -342,6 +396,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Reddit](https://www.reddit.com/r/OpenTelemetry/)
 - [Gitter](https://gitter.im/open-telemetry/community?at=5fdb93b299256527beb7c619) *- archived*
 - [Twitch](https://www.twitch.tv/opentelemetry)
+- [Offical YouTube](https://www.youtube.com/channel/UCHZDBZTIfdy94xMjMKz-_MA/playlists)
+
 
 
 
@@ -426,3 +482,6 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 **Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)) creator of [awesome-os](https://github.com/zriyansh/awesome-os).
 
 **[`^ back to top ^`](#contents)**
+
+
+
