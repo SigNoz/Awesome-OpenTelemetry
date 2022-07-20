@@ -19,24 +19,23 @@ A carefully curated list of open source content related to OpenTelemetry.
   - [Contents](#contents)
   - [OpenTelemetry Instrumentation 🎺](#opentelemetry-instrumentation-)
     - [Supported Languages](#supported-languages)
-    - [Supported Databases 💿](#supported-databases-)
+    - [Supported Databases](#supported-databases)
     - [OpenTelemetry Registry](#opentelemetry-registry)
-    - [Secure your POD 🔐](#secure-your-pod-)
+    - [Secure your POD](#secure-your-pod)
   - [Distributed Tracing Solutions](#distributed-tracing-solutions)
-    - [Open Source Tools ⚙️](#open-source-tools-️)
+    - [Open Source Tools](#open-source-tools)
     - [Opentelemetry Vendors](#opentelemetry-vendors)
-  - [Terminology 📙](#terminology-)
-  - [Statistics 📊](#statistics-)
-  - [Main Components 🏛](#main-components-)
-  - [Tools 🛠](#tools-)
+  - [Terminology](#terminology)
+  - [Statistics](#statistics)
+  - [Current Status](#current-status)
+  - [Main Components](#main-components)
+  - [Tools](#tools)
   - [Books 📚](#books-)
-    - [Case Studies 📑](#case-studies-)
-  - [Join the Community ✅](#join-the-community-)
-    - [Current Status 📈](#current-status-)
-  - [Stay in Touch 💻](#stay-in-touch-)
+    - [Case Studies](#case-studies)
+  - [Join the Community](#join-the-community)
     - [Newsletters 📰](#newsletters-)
-    - [Podcasts 🎙](#podcasts-)
-    - [Events 🎪](#events-)
+    - [Podcasts](#podcasts)
+    - [Events](#events)
     - [StackOverflow](#stackoverflow)
     - [Twitter](#twitter)
     - [Slack](#slack)
@@ -66,7 +65,7 @@ Here starts the list of awesome resources! Enjoy.
 
 **[`^ back to top ^`](#contents)**
 
-### Supported Databases 💿
+### Supported Databases 
 
 | Value           | Description                                        |
 | --------------- | -------------------------------------------------- |
@@ -134,7 +133,7 @@ If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kuberne
 The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
 
 
-### Secure your POD 🔐
+### Secure your POD 
 - [Secure OpenTelemetry Collector - Medium](https://medium.com/opentelemetry/securing-your-opentelemetry-collector-1a4f9fa5bd6f)
 
 - [ConfigAuth](https://github.com/open-telemetry/opentelemetry-collector/tree/main/config/configauth)
@@ -148,7 +147,7 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 
 ## Distributed Tracing Solutions
 
-### Open Source Tools ⚙️
+### Open Source Tools 
 
 - [SigNoz](https://signoz.io/) | [Github]()
 - [OpenTelemetry](https://opentelemetry.io) | [Github]()
@@ -162,11 +161,9 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 - [mimir](https://github.com/grafana/mimir) - the most scalable Prometheus backend.
 
 
-
-
 ### Opentelemetry Vendors 
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
-- [SigNoz - Open Source APM](https://signoz.io) - Understand issues in your deployed applications & solve them quickly ⚡️.
+- [SigNoz - Open Source APM ![](https://camo.githubusercontent.com/8354ae23fed92d21e4c27db64b4dfb654a1dffb56d20b2642ffc1db1135381e7/68747470733a2f2f63646e2e7261776769742e636f6d2f417765736f6d652d57696e646f77732f417765736f6d652f6d61737465722f6d656469612f4f53532e737667)](https://signoz.io) - Understand issues in your deployed applications & solve them quickly ⚡️.
 - [AppDynamics](https://www.appdynamics.com) - Observe what matters.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [AWS](https://aws-otel.github.io/) - A secure, production-ready, AWS-supported distribution of the OpenTelemetry project.
@@ -193,16 +190,29 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 
-## Terminology 📙
+## Terminology 
 - [Components](https://www.jaegertracing.io/docs/1.30/architecture/#terminology)
 - [Glossary](https://opentelemetry.io/docs/concepts/glossary/)
 
-## Statistics 📊
+## Statistics 
 - [DevStats - Opentelemetry](https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m)
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
 
-## Main Components 🏛
+##  Current Status 
+
+| Name        | API                    | SDK    | Protocol |
+| ----------- | ---------------------- | ------ | -------- |
+| **Tracing** | Stable, feature-freeze | Stable | Stable   |
+| **Metrics** | Stable                 | Mixed  | Stable   |
+| **Baggage** | Stable, feature-freeze | Stable | N/A      |
+| **Logging** | Draft                  | Draft  | Stable   |
+
+[Latest here.](https://opentelemetry.io/status/)
+
+
+
+## Main Components 
 
 - **OpenTelemetry Protocol (OTLP)** specification describes the encoding, transport, and delivery mechanism of telemetry data between telemetry sources, intermediate nodes such as collectors, and telemetry backends.
 - **OpenTelemetry Collector** offers a vendor-agnostic implementation on receiving, processing, and exporting telemetry data and removing the need to run, operate, and maintain multiple agents/collectors.
@@ -214,7 +224,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 ---
 
 
-## Tools 🛠
+## Tools 
 - [BindPlane OP](https://github.com/observIQ/bindplane-op) - open source observability pipeline that gives you the ability to collect, refine, and ship metrics, logs, and traces to any destination.
 - [Trace Test](https://github.com/kubeshop/tracetest) - End-to-end Tests Powered by  Your OpenTelemetry Traces.
 - [Vector](https://github.com/vectordotdev/vector) - A lightweight, ultra-fast tool for building observability pipelines by Datadog. 
@@ -233,7 +243,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 
-### Case Studies 📑
+### Case Studies 
 - [CNCF](https://www.cncf.io/case-studies/)
 - [How Lightstep Implemented Observability](https://www.oreilly.com/videos/how-lightstep-implemented/0636920623601/)
 
@@ -244,7 +254,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 --- 
 
-## Join the Community ✅
+## Join the Community 
 - [Join the Community](https://opentelemetry.io/community/)
 - [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists)
 - [Community GitHub](https://github.com/open-telemetry/community)
@@ -254,23 +264,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Twitch](https://www.twitch.tv/opentelemetry)
 
 
-###  Current Status 📈
 
-| Name        | API                    | SDK    | Protocol |
-| ----------- | ---------------------- | ------ | -------- |
-| **Tracing** | Stable, feature-freeze | Stable | Stable   |
-| **Metrics** | Stable                 | Mixed  | Stable   |
-| **Baggage** | Stable, feature-freeze | Stable | N/A      |
-| **Logging** | Draft                  | Draft  | Stable   |
-
-[Latest here.](https://opentelemetry.io/status/)
-
-
-**[`^ back to top ^`](#contents)**
-
----
-
-## Stay in Touch 💻
 
 ### Newsletters 📰
 - [o11y news!](https://o11y.news) -  Newsletter about Observability.
@@ -278,11 +272,11 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
 
 
-### Podcasts 🎙
+### Podcasts 
 - [Changelog]( https://changelog.com/topic/observability)
 - [StackOverflow Podcast #343](https://stackoverflow.blog/2021/06/01/podcast-343-unpacking-observability-and-opentelemetry-with-spiros-xanthos-of-splunk/)
 
-### Events 🎪
+### Events 
 - [CNCF](https://www.cncf.io/events/) - CNCF Events
 - [SREcon](https://www.usenix.org/conference/srecon22americas)
 - [Opentelemetery Community Days]()
@@ -350,7 +344,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 
 
-**Special Mention:** [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources *(repo stagnant)*
+**Special Mention:** [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources.
 
 **Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)) creator of [awesome-os](https://github.com/zriyansh/awesome-os).
 
