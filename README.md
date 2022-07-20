@@ -3,6 +3,8 @@
 
 A carefully curated list of open source content related to OpenTelemetry. 
 
+
+
 ## What is OpenTelemetry?
 
 **OpenTelemetry** or OTel is an open-source project, which allows you to collect, export, and generate *traces*, *logs*, and, *metrics* (also known as the three pillars of observability). It is a set of APIs and SDKs.
