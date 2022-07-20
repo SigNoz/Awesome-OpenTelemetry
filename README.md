@@ -32,6 +32,7 @@ A carefully curated list of open source content related to OpenTelemetry.
   - [Books 📚](#books-)
     - [Case Studies 📑](#case-studies-)
   - [Join the Community ✅](#join-the-community-)
+    - [Current Status 📈](#current-status-)
   - [Stay in Touch 💻](#stay-in-touch-)
     - [Newsletters 📰](#newsletters-)
     - [Podcasts 🎙](#podcasts-)
@@ -48,19 +49,19 @@ Here starts the list of awesome resources! Enjoy.
 ## OpenTelemetry Instrumentation
 
 ### Supported Languages 
-| Language                                                                        | Client Repo                                                                  | Contrib Repo                                                                   | API and SDK                                                          | Auto Instrumentation                                                                                   |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [C++](https://opentelemetry.io/docs/instrumentation/cpp/)                       | [Client ](https://github.com/open-telemetry/opentelemetry-cpp)           | [Contrib](https://github.com/open-telemetry/opentelemetry-cpp-contrib)         |
-| [.NET](https://opentelemetry.io/docs/instrumentation/net/automatic/)            | [Client ](https://github.com/open-telemetry/opentelemetry-dotnet)        | [Contrib ](https://github.com/open-telemetry/opentelemetry-dotnet-contrib) |                                                                      | [Auto Instrumentation Support](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation) |
-| [Erlang/Elixir](https://opentelemetry.io/docs/instrumentation/erlang/)          |                                                                              | [Contrib](https://github.com/open-telemetry/opentelemetry-erlang-contrib)      | [SDK](https://github.com/open-telemetry/opentelemetry-erlang) |                                                                                                        |
-| [Go](https://opentelemetry.io/docs/instrumentation/go/getting-started/)         |                                                                              | [Contrib ](https://github.com/open-telemetry/opentelemetry-go-contrib)     | [API and SDK](https://github.com/open-telemetry/opentelemetry-go)    |
-| [Java](https://opentelemetry.io/docs/instrumentation/java/automatic/)    |       | [ Contrib](https://github.com/open-telemetry/opentelemetry-java-contrib) |  [SDK](https://github.com/open-telemetry/opentelemetry-java)               |                                                                      | [Auto Instrumentation Support](https://github.com/open-telemetry/opentelemetry-java-instrumentation)   |
-| [JavaScript](https://opentelemetry.io/docs/instrumentation/js/instrumentation/) | [Client ](https://github.com/open-telemetry/opentelemetry-js)            | [Contrib ](https://github.com/open-telemetry/opentelemetry-js-contrib)     | [API](https://github.com/open-telemetry/opentelemetry-js-api)        | Auto Instrumentation Support                                                                           |
-| [PHP](https://opentelemetry.io/docs/instrumentation/php/getting_started/)       | [Github](https://github.com/open-telemetry/opentelemetry-php)                | [Contrib](https://github.com/open-telemetry/opentelemetry-php-contrib)         |                                                                      |
-| [Python](https://opentelemetry.io/docs/instrumentation/python/getting-started/) |        | [Contrib ](https://github.com/open-telemetry/opentelemetry-python-contrib) | [API and SDK](https://github.com/open-telemetry/opentelemetry-python)  | Auto Instrumentation Support                                         |
-| [Ruby](https://opentelemetry.io/docs/instrumentation/ruby/automatic/)           | [Contrib ](https://github.com/open-telemetry/opentelemetry-ruby-contrib) |                                                                                | [API and SDK](https://github.com/open-telemetry/opentelemetry-ruby)  | Auto Instrumentation Support                                                                           |
-| [Rust](https://opentelemetry.io/docs/instrumentation/rust/)                     | [Github]()                                                                   |                                                                                | [API and SDK](https://github.com/open-telemetry/opentelemetry-rust)  |
-| [Swift](https://opentelemetry.io/docs/instrumentation/swift/)                   | [Github]()                                                                   |                                                                                | [API](https://github.com/open-telemetry/opentelemetry-swift)         |
+| Language                                                                        | Client Repo                                                              | Contrib Repo                                                               | API and SDK                                                           | Auto Instrumentation                                                                                   |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [C++](https://opentelemetry.io/docs/instrumentation/cpp/)                       | [Client ](https://github.com/open-telemetry/opentelemetry-cpp)           | [Contrib](https://github.com/open-telemetry/opentelemetry-cpp-contrib)     |
+| [.NET](https://opentelemetry.io/docs/instrumentation/net/automatic/)            | [Client ](https://github.com/open-telemetry/opentelemetry-dotnet)        | [Contrib ](https://github.com/open-telemetry/opentelemetry-dotnet-contrib) |                                                                       | [Auto Instrumentation Support](https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation) |
+| [Erlang/Elixir](https://opentelemetry.io/docs/instrumentation/erlang/)          |                                                                          | [Contrib](https://github.com/open-telemetry/opentelemetry-erlang-contrib)  | [SDK](https://github.com/open-telemetry/opentelemetry-erlang)         |                                                                                                        |
+| [Go](https://opentelemetry.io/docs/instrumentation/go/getting-started/)         |                                                                          | [Contrib ](https://github.com/open-telemetry/opentelemetry-go-contrib)     | [API and SDK](https://github.com/open-telemetry/opentelemetry-go)     |
+| [Java](https://opentelemetry.io/docs/instrumentation/java/automatic/)           |                                                                          | [ Contrib](https://github.com/open-telemetry/opentelemetry-java-contrib)   | [SDK](https://github.com/open-telemetry/opentelemetry-java)           | [Auto Instrumentation Support](https://github.com/open-telemetry/opentelemetry-java-instrumentation)   |
+| [JavaScript](https://opentelemetry.io/docs/instrumentation/js/instrumentation/) | [Client ](https://github.com/open-telemetry/opentelemetry-js)            | [Contrib ](https://github.com/open-telemetry/opentelemetry-js-contrib)     | [API](https://github.com/open-telemetry/opentelemetry-js-api)         | Auto Instrumentation Support                                                                           |
+| [PHP](https://opentelemetry.io/docs/instrumentation/php/getting_started/)       | [monorepo](https://github.com/open-telemetry/opentelemetry-php)          | [Contrib](https://github.com/open-telemetry/opentelemetry-php-contrib)     |                                                                       |
+| [Python](https://opentelemetry.io/docs/instrumentation/python/getting-started/) |                                                                          | [Contrib ](https://github.com/open-telemetry/opentelemetry-python-contrib) | [API and SDK](https://github.com/open-telemetry/opentelemetry-python) | Auto Instrumentation Support                                                                           |
+| [Ruby](https://opentelemetry.io/docs/instrumentation/ruby/automatic/)           | [Contrib ](https://github.com/open-telemetry/opentelemetry-ruby-contrib) |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-ruby)   | Auto Instrumentation Support                                                                           |
+| [Rust](https://opentelemetry.io/docs/instrumentation/rust/)                     | [Github]()                                                               |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-rust)   |
+| [Swift](https://opentelemetry.io/docs/instrumentation/swift/)                   | [Github]()                                                               |                                                                            | [API](https://github.com/open-telemetry/opentelemetry-swift)          |
 
 ### Supported Databases 💿
 
@@ -245,9 +246,20 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Reddit](https://www.reddit.com/r/OpenTelemetry/)
 - [Gitter](https://gitter.im/open-telemetry/community?at=5fdb93b299256527beb7c619) *- archived*
 - [Twitch](https://www.twitch.tv/opentelemetry)
-- [Current Status](https://opentelemetry.io/status/)
 
 
+###  Current Status 📈
+
+| Name        | API                    | SDK    | Protocol |
+| ----------- | ---------------------- | ------ | -------- |
+| **Tracing** | Stable, feature-freeze | Stable | Stable   |
+| **Metrics** | Stable                 | Mixed  | Stable   |
+| **Baggage** | Stable, feature-freeze | Stable | N/A      |
+| **Logging** | Draft                  | Draft  | Stable   |
+
+[Latest here.](https://opentelemetry.io/status/)
+
+---
 
 ## Stay in Touch 💻
 
