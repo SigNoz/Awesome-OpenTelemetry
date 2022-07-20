@@ -80,55 +80,33 @@ Here starts the list of awesome resources! Enjoy.
 
 ### Supported Databases 
 
-| Value           | Description                                        |
-| --------------- | -------------------------------------------------- |
-| `other_sql`     | Some other SQL database. Fallback only. See notes. |
-| `mssql`         | Microsoft SQL Server                               |
-| `mysql`         | MySQL                                              |
-| `oracle`        | Oracle Database                                    |
-| `db2`           | IBM Db2                                            |
-| `postgresql`    | PostgreSQL                                         |
-| `redshift`      | Amazon Redshift                                    |
-| `hive`          | Apache Hive                                        |
-| `cloudscape`    | Cloudscape                                         |
-| `hsqldb`        | HyperSQL DataBase                                  |
-| `progress`      | Progress Database                                  |
-| `maxdb`         | SAP MaxDB                                          |
-| `hanadb`        | SAP HANA                                           |
-| `ingres`        | Ingres                                             |
-| `firstsql`      | FirstSQL                                           |
-| `edb`           | EnterpriseDB                                       |
-| `cache`         | InterSystems Caché                                 |
-| `adabas`        | Adabas (Adaptable Database System)                 |
-| `firebird`      | Firebird                                           |
-| `derby`         | Apache Derby                                       |
-| `filemaker`     | FileMaker                                          |
-| `informix`      | Informix                                           |
-| `instantdb`     | InstantDB                                          |
-| `interbase`     | InterBase                                          |
-| `mariadb`       | MariaDB                                            |
-| `netezza`       | Netezza                                            |
-| `pervasive`     | Pervasive PSQL                                     |
-| `pointbase`     | PointBase                                          |
-| `sqlite`        | SQLite                                             |
-| `sybase`        | Sybase                                             |
-| `teradata`      | Teradata                                           |
-| `vertica`       | Vertica                                            |
-| `h2`            | H2                                                 |
-| `coldfusion`    | ColdFusion IMQ                                     |
-| `cassandra`     | Apache Cassandra                                   |
-| `hbase`         | Apache HBase                                       |
-| `mongodb`       | MongoDB                                            |
-| `redis`         | Redis                                              |
-| `couchbase`     | Couchbase                                          |
-| `couchdb`       | CouchDB                                            |
-| `cosmosdb`      | Microsoft Azure Cosmos DB                          |
-| `dynamodb`      | Amazon DynamoDB                                    |
-| `neo4j`         | Neo4j                                              |
-| `geode`         | Apache Geode                                       |
-| `elasticsearch` | Elasticsearch                                      |
-| `memcached`     | Memcached                                          |
-| `cockroachdb`   | CockroachDB                                        |
+| Value        | Description                        | Value           | Description               |
+| ------------ | ---------------------------------- | --------------- | ------------------------- |
+| `other_sql`  | Some other SQL database            | `mariadb`       | MariaDB                   |
+| `mssql`      | Microsoft SQL Server               | `netezza`       | Netezza                   |
+| `mysql`      | MySQL                              | `pervasive`     | Pervasive PSQL            |
+| `oracle`     | Oracle Database                    | `pointbase`     | PointBase                 |
+| `db2`        | IBM Db2                            | `sqlite`        | SQLite                    |
+| `postgresql` | PostgreSQL                         | `sybase`        | Sybase                    |
+| `redshift`   | Amazon Redshift                    | `teradata`      | Teradata                  |
+| `hive`       | Apache Hive                        | `vertica`       | Vertica                   |
+| `cloudscape` | Cloudscape                         | `h2`            | H2                        |
+| `hsqldb`     | HyperSQL DataBase                  | `coldfusion`    | ColdFusion IMQ            |
+| `progress`   | Progress Database                  | `cassandra`     | Apache Cassandra          |
+| `maxdb`      | SAP MaxDB                          | `hbase`         | Apache HBase              |
+| `hanadb`     | SAP HANA                           | `mongodb`       | MongoDB                   |
+| `ingres`     | Ingres                             | `redis`         | Redis                     |
+| `firstsql`   | FirstSQL                           | `couchbase`     | Couchbase                 |
+| `edb`        | EnterpriseDB                       | `couchdb`       | CouchDB                   |
+| `cache`      | InterSystems Caché                 | `cosmosdb`      | Microsoft Azure Cosmos DB |
+| `adabas`     | Adabas (Adaptable Database System) | `dynamodb`      | Amazon DynamoDB           |
+| `firebird`   | Firebird                           | `neo4j`         | Neo4j                     |
+| `derby`      | Apache Derby                       | `geode`         | Apache Geode              |
+| `filemaker`  | FileMaker                          | `elasticsearch` | Elasticsearch             |
+| `informix`   | Informix                           | `memcached`     | Memcached                 |
+| `instantdb`  | InstantDB                          | `cockroachdb`   | CockroachDB               |
+| `interbase`  | InterBase                          |
+
 
 
 Check full list [here.](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/trace/semantic_conventions/database.md)
