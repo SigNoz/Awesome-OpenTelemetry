@@ -171,7 +171,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [AWS](https://aws-otel.github.io/) - A secure, production-ready, AWS-supported distribution of the OpenTelemetry project.
 - [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
-- [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
+- [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards) - Modern monitoring & security.
 - [Dynatrace](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/service-monitoring-settings/opentelemetry/) - Digitally transform faster, smarter, and easier.
 - [Elastic](https://www.elastic.co/guide/en/apm/get-started/current/open-telemetry-elastic.html) - Search. Solve. Succeed.
 - [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter)
