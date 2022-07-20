@@ -32,6 +32,19 @@ A carefully curated list of open source content related to OpenTelemetry.
   - [Tools](#tools)
   - [Books 📚](#books-)
     - [Case Studies](#case-studies)
+  - [Blog By Vendors:](#blog-by-vendors)
+  - [Video Tutorials](#video-tutorials)
+    - [OpenTelemetry C++](#opentelemetry-c)
+    - [OpenTelemetry .NET](#opentelemetry-net)
+    - [OpenTelemetry Erlang/Elixir](#opentelemetry-erlangelixir)
+    - [OpenTelemetry Go](#opentelemetry-go)
+    - [OpenTelemetry Java](#opentelemetry-java)
+    - [OpenTelemetry JavaScript](#opentelemetry-javascript)
+    - [OpenTelemetry PHP](#opentelemetry-php)
+    - [OpenTelemetry Python](#opentelemetry-python)
+    - [OpenTelemetry Ruby](#opentelemetry-ruby)
+    - [OpenTelemetry Rust](#opentelemetry-rust)
+    - [OpenTelemetry Swift](#opentelemetry-swift)
   - [Join the Community](#join-the-community)
     - [Newsletters 📰](#newsletters-)
     - [Podcasts](#podcasts)
@@ -252,6 +265,73 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 **[`^ back to top ^`](#contents)**
 
 
+## Blog By Vendors:
+
+- [SigNoz](https://signoz.io/opentelemetry/) - Instrumentation Blogs.
+- [New Relic](https://developer.newrelic.com/opentelemetry-masterclass/) - OpenTelemetry Masterclass from New Relic.
+- [Honeycomb](https://www.honeycomb.io/blog/) - Blog posts about observability, monitoring, OpenTelemetry.
+- [Aspecto](https://www.aspecto.io/blog/) - Guides on how to use OpenTelemetry.
+- [Aspecto Medium](https://medium.com/aspecto)
+- [Jaeger](https://medium.com/jaegertracing/latest) - Posts from Jaeger.
+- [Dev.to](https://dev.to/search?q=OpenTelemetry) - Posts about OpenTelemetry.
+- [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates of OpenTelemetry.
+
+
+
+## Video Tutorials
+- [OpenTelemetry Instrumentation with SigNoz Playlist](https://www.youtube.com/playlist?list=PL0N8FjJpzGl_VLU-PedUdnWXUybA90pcP)
+- [The OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) | [Github](https://github.com/aspecto-io/opentelemetry-bootcamp)
+- [freeCodeCamp OpenTelemetry Course](https://www.youtube.com/watch?v=r8UvWSX3KA8)
+- [Udemy - Microservices Observability, Resilience, Monitoring on .Net](https://www.udemy.com/course/microservices-observability-resilience-monitoring-on-net/)
+- [OpenTelemetry Tutorial .NET](https://www.youtube.com/playlist?list=PLdvI3YlPDGgdFG2mlXOy403V0J3MhRHeE)
+- [LightStep Opentelemetry Playlist 30 Videos](https://www.youtube.com/playlist?list=PLv9DlQuUaXQc7PWxyGuJJnHE856zJYpse)
+
+
+### OpenTelemetry C++
+- [OpenTelemetry 2019-10-21 C++ SIG meeting](https://www.youtube.com/watch?v=5TVtrpMEj1E)
+- [Opentelemetry 2020-05-04 C/C++ SIG meeting](https://www.youtube.com/watch?v=t5HgtwtuhwE)
+
+### OpenTelemetry .NET
+- [.NET - Monitor a .NET Application with OpenTelemetry and SigNoz](https://www.youtube.com/watchv=9SwL5kMDcvY)
+- [OpenTelemetry with Minimal APIs in .NET 6](https://www.youtube.com/watch?v=djLCqEzf72o)
+- [Get Started With OpenTelemetry Tracing and ASP.NET Core](https://www.youtube.com/watch?v=g0G9M6AuTdo)
+- [Using OpenTelemetry for distributed tracing in microservices Implemented in ASP.NET 6 and C# 10](https://www.youtube.com/watch?v=vas3TjFUkds)
+- [OpenTelemetry in .NET Explained](https://www.youtube.com/watch?v=LPh1YzIc39U)
+- [Better Observability with Open Telemetry in .NET](https://www.youtube.com/watch?v=Sb3p4AHytG8)
+- [Distributed Tracing Made Easy with .NET 5, with Jimmy Bogard](https://www.youtube.com/watch?v=N0r5NSY3ZIQ)
+  
+
+### OpenTelemetry Erlang/Elixir
+- [Elixir - Monitor your Elixir Application with OpenTelemetry and SigNoz](https://www.youtube.com/watch?v=wLMrV-LtHFU)
+- [Monitoring Elixir With OpenTelemetry | Kamil Kowalski | ElixirConf EU 2021](https://www.youtube.com/watch?v=4OBtc_eIKIE)
+  
+
+### OpenTelemetry Go
+- [Go instrumentation - OpenTelemetry in Go applications : Complete Tutorial with SigNoz](https://www.youtube.com/watch?v=kTHW4VYnISQ&t=3s)
+- [OpenTelemetry Deep Dive: Golang](https://www.youtube.com/watch?v=yQpyIrdxmQc)
+- [Golang Microservices: Observability using OpenTelemetry](https://www.youtube.com/watch?v=bytCFQJ43DE)
+- [Monitoring Go Applications with OpenTelemetry | Johannes Liebermann](https://www.youtube.com/watch?v=R3A3BjpMi6k)
+- [GopherCon UK 2021: Chris Reeves - Instrumenting GO Applications](https://www.youtube.com/watch?v=Xo7S5fQq2V8)
+- [Workshop: Getting started with OpenTelemetry and Distributed Tracing in Golang](https://www.youtube.com/watch?v=p73-PvchUl8)
+- [Distributed Tracing on Go using OpenTelemetry - Fahri Yardımcı - GopherCon Turkey 2020](https://www.youtube.com/watch?v=I7pQWjYl6nM)
+
+
+
+### OpenTelemetry Java
+
+### OpenTelemetry JavaScript
+
+### OpenTelemetry PHP
+
+### OpenTelemetry Python
+
+### OpenTelemetry Ruby
+
+### OpenTelemetry Rust
+
+### OpenTelemetry Swift
+
+
 --- 
 
 ## Join the Community 
@@ -314,9 +394,6 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [HoneyComb](https://twitter.com/honeycombio)
 - [Dyte](https://twitter.com/dyte_io)
 - [Aspecto](https://twitter.com/AspectoInc)
-
-<br>
-
 - [tracetest_io](https://twitter.com/tracetest_io) - End-to-end tests powered by your OpenTelemetry Traces.
 - [OpsMatters](https://twitter.com/opsmatters_uk)
 
