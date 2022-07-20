@@ -168,7 +168,7 @@ The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to s
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 - [SigNoz - Open Source APM](https://signoz.io) - Understand issues in your deployed applications & solve them quickly ⚡️.
 - [AppDynamics](https://www.appdynamics.com) - Observe what matters.
-- [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices. Correlate root causes across traces, logs and metrics.
+- [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [AWS](https://aws-otel.github.io/) - A secure, production-ready, AWS-supported distribution of the OpenTelemetry project.
 - [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
 - [Datadog](https://docs.datadoghq.com/tracing/setup_overview/open_standards)
@@ -184,7 +184,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Lumingo](https://docs.lumigo.io/docs/opentelemetry) - Monitoring and Debugging for Modern Cloud Applications.
 - [New Relic](https://newrelic.com/solutions/opentelemetry) - Instrument once, analyze everything in one place.
 - [Promscale](https://www.timescale.com/promscale/) - Observability powered by SQL.
-- [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html) - Monitor the processors, disks, controllers, network adapters, temperature sensors, etc. on all your systems.
+- [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html) - Monitor the processors, disks, controllers, network adapters, temperature sensors, etc.
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html) - The Unified Security and Observability Platform.
 - [Sumo Logic](https://help.sumologic.com/Traces/Getting_Started_with_Transaction_Tracing) - Making the world’s apps reliable and secure. Cloud-native SaaS analytics.
 - [Uptrace](https://uptrace.dev/) - All-in-one tool to optimize performance and monitor errors & logs.
