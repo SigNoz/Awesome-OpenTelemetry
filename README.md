@@ -3,6 +3,7 @@
 
 A carefully curated list of open source content related to OpenTelemetry. 
 
+<img width="686" alt="OTel_full" src="https://user-images.githubusercontent.com/52788043/179937064-9e3a201a-0a04-41c4-9079-0d64c9f39e8e.png">
 
 
 ## What is OpenTelemetry?
