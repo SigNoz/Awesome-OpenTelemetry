@@ -375,8 +375,12 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [OpenTelemetry for Rubyists by Francis Wang](https://www.youtube.com/watch?v=0XIB9KF9w2w)
 
 
-### OpenTelemetry Rust <sub> <img width="26" alt="OTel_full" src="https://user-images.githubusercontent.com/52788043/180186135-11f3d792-be93-42a1-ba40-9b99210d6f4d.png"> </sub>
-- [Rust - Implementing OpenTelemetry in a Rust application for performance monitoring](https://www.youtube.com/watch?v=yPt1Pc3_tls)
+
+### OpenTelemetry Rust 
+
+- <sub><sub><img width="26" alt="OTel_full" src="https://user-images.githubusercontent.com/52788043/180186135-11f3d792-be93-42a1-ba40-9b99210d6f4d.png"></sub>
+
+- [Rust - Implementing OpenTelemetry in a Rust application for performance monitoring](https://www.youtube.com/watch?v=yPt1Pc3_tls) 
 - [Rust Dublin July 2021 - OpenTelemetry and Rust](https://www.youtube.com/watch?v=DURrAo9lPFA)
 - [Observe with Rust: OpenTelemetry and Tremor - Gary White Jr., Wayfair](https://www.youtube.com/watch?v=RI9cy8OJQmY)
 - [The Rust Programming Language - OpenTelemetry and Rust](https://www.youtube.com/watch?v=6iz9xCCPNPA)
