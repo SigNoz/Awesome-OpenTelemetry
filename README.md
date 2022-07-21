@@ -17,8 +17,10 @@ A carefully curated list of open source content related to OpenTelemetry.
 - [Awesome OpenTelemetry 🎉](#awesome-opentelemetry-)
   - [What is OpenTelemetry?](#what-is-opentelemetry)
   - [Contents](#contents)
+  - [Important Links](#important-links)
   - [OpenTelemetry Instrumentation 🎺](#opentelemetry-instrumentation-)
     - [Supported Languages](#supported-languages)
+    - [Language Docs](#language-docs)
     - [Supported Databases](#supported-databases)
     - [OpenTelemetry Registry](#opentelemetry-registry)
     - [OpenTelemetry Architecture](#opentelemetry-architecture)
@@ -66,6 +68,11 @@ Here starts the list of awesome resources! Enjoy.
 
 ---
 
+## Important Links
+- [OpenTelemetry API](https://hex.pm/packages/opentelemetry_api)
+- [OpenTelemetry API Documentation](https://hexdocs.pm/opentelemetry_api/1.0.0-rc.2/OpenTelemetry.html)
+
+
 ## OpenTelemetry Instrumentation 🎺
 
 ### Supported Languages 
@@ -80,11 +87,31 @@ Here starts the list of awesome resources! Enjoy.
 | [PHP](https://opentelemetry.io/docs/instrumentation/php/getting_started/)       | [monorepo](https://github.com/open-telemetry/opentelemetry-php)          | [Contrib](https://github.com/open-telemetry/opentelemetry-php-contrib)     |                                                                       |
 | [Python](https://opentelemetry.io/docs/instrumentation/python/getting-started/) |                                                                          | [Contrib ](https://github.com/open-telemetry/opentelemetry-python-contrib) | [API and SDK](https://github.com/open-telemetry/opentelemetry-python) | Auto Instrumentation Support                                                                           |
 | [Ruby](https://opentelemetry.io/docs/instrumentation/ruby/automatic/)           | [Contrib ](https://github.com/open-telemetry/opentelemetry-ruby-contrib) |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-ruby)   | Auto Instrumentation Support                                                                           |
-| [Rust](https://opentelemetry.io/docs/instrumentation/rust/)                     | [Github]()                                                               |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-rust)   |
-| [Swift](https://opentelemetry.io/docs/instrumentation/swift/)                   | [Github]()                                                               |                                                                            | [API](https://github.com/open-telemetry/opentelemetry-swift)          |
+| [Rust](https://opentelemetry.io/docs/instrumentation/rust/)                     |                                                                |                                                                            | [API and SDK](https://github.com/open-telemetry/opentelemetry-rust)   |
+| [Swift](https://opentelemetry.io/docs/instrumentation/swift/)                   |                                                                |                                                                            | [API](https://github.com/open-telemetry/opentelemetry-swift)          |
 
 
 **[`^ back to top ^`](#contents)**
+
+
+### Language Docs
+
+| Language        | SIG Meeting Summary Doc                                                                                                | External Docs (if any)                                                        |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| C++             | [SIG Doc](https://docs.google.com/document/d/1i1E4-_y4uJ083lCutKGDhkpi3n4_e774SBLi9hPLocw/edit#heading=h.9tngw7jdwd6b) | [Doc](https://opentelemetry-cpp.readthedocs.io/en/latest/index.html) |
+| .NET            | [SIG Doc](https://docs.google.com/document/d/1yjjD6aBcLxlRazYrawukDgrhZMObwHARJbB9glWdHj8/edit#heading=h.k5b5i5jbb7y)  |
+| Erlang / Elixir | [SIG DOC](https://docs.google.com/document/d/1EbBiRjBc_cBf0T_B5OtNRPhbD4jdBrVYJAy8euCDrUI/edit#heading=h.ec9xn678eap8) |                                                                      |
+| Go              | [SIG DOC](https://docs.google.com/document/d/1A63zSWX0x2CyCK_LoNhmQC4rqhLpYXJzXbEPDUQ2n6w/edit#)                       |       [otel Package](https://pkg.go.dev/go.opentelemetry.io/otel#section-readme)                                                               |
+| Java            | [SIG DOC](https://docs.google.com/document/d/1WK9h4p55p8ZjPkxO75-ApI9m0wfea6ENZmMoFRvXSCw/edit)                        |            [javadoc](https://www.javadoc.io/doc/io.opentelemetry)                                                          |
+| JavaScript      | [SIG DOC](https://docs.google.com/document/d/1YR1Z3SqOkAJGffycO_P9d0CiTMP79OOtu_xvIyyVLME/edit)                        |                                                                      |
+| PHP             | [SIG DOC](https://docs.google.com/document/d/1WLDZGLY24rk5fRudjdQAcx_u81ZQWCF3zxiNT-sz7DI/edit)                        |                                                                      |
+| Python          | [SIG DOC](https://docs.google.com/document/d/1CIMGoIOZ-c3-igzbd6_Pnxx1SjAkjwqoYSUWxPY8XIs/edit)                        |                                                                      |
+| Ruby            | [SIG DOC](https://docs.google.com/document/d/1D15bO8o340sQm2CVZiukEJuCO_XMMHKPuTznoEhyFqE/edit#heading=h.951oi3x8ptux) |                                                                      |
+| Rust            | [SIG DOC](https://docs.google.com/document/d/1tGKuCsSnyT2McDncVJrMgg74_z8V06riWZa0Sr79I_4/edit#heading=h.fssat5bvwd5m) |                                                                      |
+| Swift           | [SIG DOC](https://docs.google.com/document/d/1ShEFMywIV4LJcDYCNy41zkq8RR1sMq-tSvMBHngHcuk/edit?usp=sharing)            |                                                                      |
+
+
+More [here](https://github.com/open-telemetry/community#implementation-sigs).
 
 ### Supported Databases 
 
