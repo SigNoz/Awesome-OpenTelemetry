@@ -557,7 +557,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 **Special Mention:** [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources.
 
-**Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)) creator of [awesome-os](https://github.com/zriyansh/awesome-os).
+**Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)), also creator of [awesome-OS](https://github.com/zriyansh/awesome-os).
 
 **[`^ back to top ^`](#contents)**
 
