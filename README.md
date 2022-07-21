@@ -28,7 +28,9 @@ A carefully curated list of open source content related to OpenTelemetry.
     - [Opentelemetry Vendors](#opentelemetry-vendors)
   - [Terminology](#terminology)
   - [Statistics](#statistics)
-  - [Current Status](#current-status)
+  - [Signal Current Status](#signal-current-status)
+  - [Language Current Status](#language-current-status)
+      - [JavaScript:](#javascript)
   - [Main Components](#main-components)
   - [Tools](#tools)
   - [Books 📚](#books-)
@@ -199,9 +201,12 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
 
-##  Current Status 
+**[`^ back to top ^`](#contents)**
 
-| Name        | API                    | SDK    | Protocol |
+
+## Signal Current Status 
+
+| Signal      | API                    | SDK    | Protocol |
 | ----------- | ---------------------- | ------ | -------- |
 | **Tracing** | Stable, feature-freeze | Stable | Stable   |
 | **Metrics** | Stable                 | Mixed  | Stable   |
@@ -211,6 +216,34 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 [Latest here.](https://opentelemetry.io/status/)
 
 
+## Language Current Status
+
+| Language          | Tracing   | Metrics                | Logging             |
+| ----------------- | --------- | ---------------------- | ------------------- |
+| **C++**           | Stable    | Experimental           | Experimental        |
+| **Erlang/Elixir** | Stable    | Alpha                  | Not Yet Implemented |
+| **Go**            | Stable    | Alpha                  | Not Yet Implemented |
+| **Java**          | Stable    | Stable                 | Experimental        |
+| **PHP**           | Pre-Alpha | Pre-Alpha              | Not Yet Implemented |
+| **Python**        | Stable    | Release Candidate (RC) | Experimental        |
+| **Ruby**          | Stable    | Not Yet Implemented    | Not Yet Implemented |
+| **Rust**          | Beta      | Alpha                  | Not Yet Implemented |
+| **Swift**         | Beta      | Alpha                  | Not Yet Implemented |
+
+
+| Language | Tracing | Metrics | Logging         |                                 |
+| -------- | ------- | ------- | --------------- | ------------------------------- |
+| **.NET** | Stable  | Stable  | iLogger: Stable | OTLP log exporter: Experimental |
+
+
+#### JavaScript:
+| Signal      | API Status  | SDK Status        |
+| ----------- | ----------- | ----------------- |
+| **Trace**   | Stable      | Release Candidate |
+| **Metrics** | Development | Development       |
+| **Logs**    | Roadmap     | Roadmap           |
+
+<br>
 
 ## Main Components 
 
