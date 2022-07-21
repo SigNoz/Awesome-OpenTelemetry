@@ -21,6 +21,7 @@ A carefully curated list of open source content related to OpenTelemetry.
     - [Supported Languages](#supported-languages)
     - [Supported Databases](#supported-databases)
     - [OpenTelemetry Registry](#opentelemetry-registry)
+    - [OpenTelemetry Architecture](#opentelemetry-architecture)
     - [Secure your POD](#secure-your-pod)
   - [Distributed Tracing Solutions](#distributed-tracing-solutions)
     - [Open Source Tools](#open-source-tools)
@@ -126,6 +127,9 @@ If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kuberne
 
 ### OpenTelemetry Registry 
 The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
+
+### OpenTelemetry Architecture
+
 
 
 ### Secure your POD 
