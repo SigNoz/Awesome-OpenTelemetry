@@ -21,13 +21,16 @@ A carefully curated list of open source content related to OpenTelemetry.
     - [Supported Languages](#supported-languages)
     - [Supported Databases](#supported-databases)
     - [OpenTelemetry Registry](#opentelemetry-registry)
+    - [OpenTelemetry Architecture](#opentelemetry-architecture)
     - [Secure your POD](#secure-your-pod)
   - [Distributed Tracing Solutions](#distributed-tracing-solutions)
     - [Open Source Tools](#open-source-tools)
     - [Opentelemetry Vendors](#opentelemetry-vendors)
   - [Terminology](#terminology)
   - [Statistics](#statistics)
-  - [Current Status](#current-status)
+  - [Signal Current Status](#signal-current-status)
+  - [Language Current Status](#language-current-status)
+      - [JavaScript:](#javascript)
   - [Main Components](#main-components)
   - [Tools](#tools)
   - [Books 📚](#books-)
@@ -127,6 +130,10 @@ If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kuberne
 ### OpenTelemetry Registry 
 The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
 
+### OpenTelemetry Architecture
+![otel_diagram](https://user-images.githubusercontent.com/52788043/180190214-3b3c5c15-59e4-4737-8236-b34b0e62bca6.png)
+
+
 
 ### Secure your POD 
 - [Secure OpenTelemetry Collector - Medium](https://medium.com/opentelemetry/securing-your-opentelemetry-collector-1a4f9fa5bd6f)
@@ -194,9 +201,12 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=opentelemetry)
 
 
-##  Current Status 
+**[`^ back to top ^`](#contents)**
 
-| Name        | API                    | SDK    | Protocol |
+
+## Signal Current Status 
+
+| Signal      | API                    | SDK    | Protocol |
 | ----------- | ---------------------- | ------ | -------- |
 | **Tracing** | Stable, feature-freeze | Stable | Stable   |
 | **Metrics** | Stable                 | Mixed  | Stable   |
@@ -206,6 +216,34 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 [Latest here.](https://opentelemetry.io/status/)
 
 
+## Language Current Status
+
+| Language          | Tracing   | Metrics                | Logging             |
+| ----------------- | --------- | ---------------------- | ------------------- |
+| **C++**           | Stable    | Experimental           | Experimental        |
+| **Erlang/Elixir** | Stable    | Alpha                  | Not Yet Implemented |
+| **Go**            | Stable    | Alpha                  | Not Yet Implemented |
+| **Java**          | Stable    | Stable                 | Experimental        |
+| **PHP**           | Pre-Alpha | Pre-Alpha              | Not Yet Implemented |
+| **Python**        | Stable    | Release Candidate (RC) | Experimental        |
+| **Ruby**          | Stable    | Not Yet Implemented    | Not Yet Implemented |
+| **Rust**          | Beta      | Alpha                  | Not Yet Implemented |
+| **Swift**         | Beta      | Alpha                  | Not Yet Implemented |
+
+
+| Language | Tracing | Metrics | Logging         |                                 |
+| -------- | ------- | ------- | --------------- | ------------------------------- |
+| **.NET** | Stable  | Stable  | iLogger: Stable | OTLP log exporter: Experimental |
+
+
+#### JavaScript:
+| Signal      | API Status  | SDK Status        |
+| ----------- | ----------- | ----------------- |
+| **Trace**   | Stable      | Release Candidate |
+| **Metrics** | Development | Development       |
+| **Logs**    | Roadmap     | Roadmap           |
+
+<br>
 
 ## Main Components 
 
@@ -337,7 +375,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Workshop: Getting Started with OpenTelemetry and Distributed Tracing in Node.js](https://www.youtube.com/watch?v=LIzHgDffvjU)
 - [Getting Started with OpenTelemetry and Distributed Tracing in Node.js](https://www.youtube.com/watch?v=whibfYKeA5Q)
 - [Node.js Meetup - Trace-Based Testing with OpenTelemetry - Michael Haberman](https://www.youtube.com/watch?v=sTpNiAFnENE)
-- 
+  
 
 
 ### OpenTelemetry PHP
@@ -375,8 +413,10 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [OpenTelemetry for Rubyists by Francis Wang](https://www.youtube.com/watch?v=0XIB9KF9w2w)
 
 
-### OpenTelemetry Rust <sub> <img width="26" alt="OTel_full" src="https://user-images.githubusercontent.com/52788043/180186135-11f3d792-be93-42a1-ba40-9b99210d6f4d.png"> </sub>
-- [Rust - Implementing OpenTelemetry in a Rust application for performance monitoring](https://www.youtube.com/watch?v=yPt1Pc3_tls)
+
+### OpenTelemetry Rust 
+
+- [Rust - Implementing OpenTelemetry in a Rust application for performance monitoring](https://www.youtube.com/watch?v=yPt1Pc3_tls) 
 - [Rust Dublin July 2021 - OpenTelemetry and Rust](https://www.youtube.com/watch?v=DURrAo9lPFA)
 - [Observe with Rust: OpenTelemetry and Tremor - Gary White Jr., Wayfair](https://www.youtube.com/watch?v=RI9cy8OJQmY)
 - [The Rust Programming Language - OpenTelemetry and Rust](https://www.youtube.com/watch?v=6iz9xCCPNPA)
