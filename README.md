@@ -129,6 +129,7 @@ If you are using Kubernetes, you can use the [OpenTelemetry Operator for Kuberne
 The [OpenTelemetry Registry](https://opentelemetry.io/registry/) allows you to search for instrumentation libraries, tracer implementations, utilities, and other useful projects in the OpenTelemetry ecosystem.
 
 ### OpenTelemetry Architecture
+![otel_diagram](https://user-images.githubusercontent.com/52788043/180190214-3b3c5c15-59e4-4737-8236-b34b0e62bca6.png)
 
 
 
