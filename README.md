@@ -219,40 +219,40 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 ## Language Current Status
 
-| Language          | Tracing   | Metrics                | Logging             | Latest |
-| ----------------- | --------- | ---------------------- | ------------------- | ------ |
-| **C++**           | Stable    | Experimental           | Experimental        | [here](https://opentelemetry.io/docs/instrumentation/cpp/#status-and-releases)   |
-| **Erlang/Elixir** | Stable    | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/erlang/#status-and-releases)   |
-| **Go**            | Stable    | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/go/#status-and-releases)   |
+| Language          | Tracing   | Metrics                | Logging             | Latest                                                                            |
+| ----------------- | --------- | ---------------------- | ------------------- | --------------------------------------------------------------------------------- |
+| **C++**           | Stable    | Experimental           | Experimental        | [here](https://opentelemetry.io/docs/instrumentation/cpp/#status-and-releases)    |
+| **Erlang/Elixir** | Stable    | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/erlang/#status-and-releases) |
+| **Go**            | Stable    | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/go/#status-and-releases)     |
 | **Java**          | Stable    | Stable                 | Experimental        | [here](https://opentelemetry.io/docs/instrumentation/java/#status-and-releases)   |
-| **PHP**           | Pre-Alpha | Pre-Alpha              | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/php/#status-and-releases)   |
-| **Python**        | Stable    | Release Candidate (RC) | Experimental        | [here](https://opentelemetry.io/docs/instrumentation/python/#status-and-releases)   |
+| **PHP**           | Pre-Alpha | Pre-Alpha              | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/php/#status-and-releases)    |
+| **Python**        | Stable    | Release Candidate (RC) | Experimental        | [here](https://opentelemetry.io/docs/instrumentation/python/#status-and-releases) |
 | **Ruby**          | Stable    | Not Yet Implemented    | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/ruby/#status-and-releases)   |
 | **Rust**          | Beta      | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/rust/#status-and-releases)   |
-| **Swift**         | Beta      | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/swift/#status-and-releases)   |
+| **Swift**         | Beta      | Alpha                  | Not Yet Implemented | [here](https://opentelemetry.io/docs/instrumentation/swift/#status-and-releases)  |
 
 
 
 <br>
 
 #### .NET: 
-| Signal                | Status       |
-| --------------------- | ------------ |
-| **Trace**             | Stable       |
-| **Metrics**           | Stable       |
-| **iLogger**           | Stable       |
-| **OTLP log exporter** | Experimental |
-| Latest                | [here](https://opentelemetry.io/docs/instrumentation/net/#status-and-releases)         |
+| Signal                | Status                                                                         |
+| --------------------- | ------------------------------------------------------------------------------ |
+| **Trace**             | Stable                                                                         |
+| **Metrics**           | Stable                                                                         |
+| **iLogger**           | Stable                                                                         |
+| **OTLP log exporter** | Experimental                                                                   |
+| Latest                | [here](https://opentelemetry.io/docs/instrumentation/net/#status-and-releases) |
 
 <br>
 
 #### JavaScript:
-| Signal      | API Status  | SDK Status        |
-| ----------- | ----------- | ----------------- |
-| **Trace**   | Stable      | Release Candidate |
-| **Metrics** | Development | Development       |
-| **Logging** | Roadmap     | Roadmap           |
-| Latest      | [here](https://opentelemetry.io/docs/instrumentation/js/#status-and-releases)        | [here](https://opentelemetry.io/docs/instrumentation/js/#status-and-releases)              |
+| Signal      | API Status                                                                    | SDK Status                                                                    |
+| ----------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Trace**   | Stable                                                                        | Release Candidate                                                             |
+| **Metrics** | Development                                                                   | Development                                                                   |
+| **Logging** | Roadmap                                                                       | Roadmap                                                                       |
+| Latest      | [here](https://opentelemetry.io/docs/instrumentation/js/#status-and-releases) | [here](https://opentelemetry.io/docs/instrumentation/js/#status-and-releases) |
 
 <br>
 
