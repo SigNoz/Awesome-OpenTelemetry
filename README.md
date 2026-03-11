@@ -298,7 +298,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 ## Tools 
 - [BindPlane OP](https://github.com/observIQ/bindplane-op) - open source observability pipeline that gives you the ability to collect, refine, and ship metrics, logs, and traces to any destination.
 - [Trace Test](https://github.com/kubeshop/tracetest) - End-to-end Tests Powered by  Your OpenTelemetry Traces.
-- [Vector](https://github.com/vectordotdev/vector) - A lightweight, ultra-fast tool for building observability pipelines by Datadog. 
+- [ModalTrace](https://github.com/arnabdeypolimi/video_ai_telemetry) - OpenTelemetry-based observability SDK for real-time AI video pipelines — frame-level metrics, GPU monitoring per pipeline stage, and A/V sync drift tracking.
+- [Vector](https://github.com/vectordotdev/vector) - A lightweight, ultra-fast tool for building observability pipelines by Datadog.
 
 ## Books 📚
 
