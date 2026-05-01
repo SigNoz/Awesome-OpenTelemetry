@@ -297,6 +297,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 
 ## Tools 
 - [BindPlane OP](https://github.com/observIQ/bindplane-op) - open source observability pipeline that gives you the ability to collect, refine, and ship metrics, logs, and traces to any destination.
+- [KubeStellar Console](https://console.kubestellar.io) - Open source AI-powered multi-cluster Kubernetes dashboard with Prometheus/OpenTelemetry metrics observability and AI-guided operations. CNCF Sandbox project.
 - [Trace Test](https://github.com/kubeshop/tracetest) - End-to-end Tests Powered by  Your OpenTelemetry Traces.
 - [Vector](https://github.com/vectordotdev/vector) - A lightweight, ultra-fast tool for building observability pipelines by Datadog. 
 
