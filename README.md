@@ -210,6 +210,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Logz.io](https://docs.logz.io/shipping/tracing-sources/opentelemetry.html#overview) - End-to-end cloud monitoring built for scale.
 - [Lumingo](https://docs.lumigo.io/docs/opentelemetry) - Monitoring and Debugging for Modern Cloud Applications.
 - [New Relic](https://newrelic.com/solutions/opentelemetry) - Instrument once, analyze everything in one place.
+- [Opik](https://www.comet.com/site/products/opik/) - Open-source platform for LLM observability, tracing, and evaluation.
 - [Promscale](https://www.timescale.com/promscale/) - Observability powered by SQL.
 - [Sentry Software](https://www.sentrysoftware.com/products/hardware-sentry-opentelemetry-collector.html) - Monitor the processors, disks, controllers, network adapters, temperature sensors, etc.
 - [Splunk](https://www.splunk.com/en_us/blog/conf-splunklive/announcing-native-opentelemetry-support-in-splunk-apm.html) - The Unified Security and Observability Platform.
@@ -562,6 +563,5 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 **Maintainer** - Priyansh Khodiyar ([@zriyansh](https://github.com/zriyansh)), also creator of [awesome-OS](https://github.com/zriyansh/awesome-os).
 
 **[`^ back to top ^`](#contents)**
-
 
 
