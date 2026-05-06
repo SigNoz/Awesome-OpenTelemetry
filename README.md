@@ -336,6 +336,8 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Jaeger](https://medium.com/jaegertracing/latest) - Posts from Jaeger.
 - [Dev.to](https://dev.to/search?q=OpenTelemetry) - Posts about OpenTelemetry.
 - [Lightstep](https://lightstep.com/blog) - Blog posts and latest updates of OpenTelemetry.
+- [Middleware](https://middleware.io/blog) - Blogs on OpeTelemetry, Observability, monitoring.
+
 
 
 
