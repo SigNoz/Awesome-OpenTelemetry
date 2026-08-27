@@ -302,6 +302,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [Trace Test](https://github.com/kubeshop/tracetest) - End-to-end Tests Powered by  Your OpenTelemetry Traces.
 - [ModalTrace](https://github.com/arnabdeypolimi/video_ai_telemetry) - OpenTelemetry-based observability SDK for real-time AI video pipelines — frame-level metrics, GPU monitoring per pipeline stage, and A/V sync drift tracking.
 - [Vector](https://github.com/vectordotdev/vector) - A lightweight, ultra-fast tool for building observability pipelines by Datadog.
+- [Wattage](https://github.com/faizannraza/wattage) - Token-spend profiler and CI cost-regression gate for AI agents, built on OpenTelemetry GenAI semantic-convention traces — prices every span and fails builds on cost regressions.
 
 ## Books 📚
 
