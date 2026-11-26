@@ -487,6 +487,7 @@ Distributions and vendors who natively support OpenTelemetry in their commercial
 - [o11y news!](https://o11y.news) -  Newsletter about Observability.
 - [Observability news](https://buttondown.email/o11y.news) - Updates around observability (o11y) with a special focus on open source.
 - [The new stack](https://thenewstack.io/category/monitoring/) - A newsletter digest of the week’s most important stories & analyses.
+- [AI SRE Weekly](https://www.linkedin.com/company/ai-sre-weekly/) - Weekly newsletter tracking the AI SRE category: vendor launches, funding, incident-automation research and what changed for on-call teams.
 
 
 ### Podcasts 
